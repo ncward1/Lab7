@@ -24,6 +24,9 @@ namespace Lab7
             Book yourBook = new Book("4321" , "The Phantom Book" , new Author("Jamie" , 'f', "jamie@mail.com"));
             Console.WriteLine(yourBook.ToString());
 
+            //was unsure how to call the set email method wasnt working using the book object.
+            //yourBook.SetEmail("jamie@crimson.ua.edu");
+
             Book yourBooks = new Book("4321" , "The Phantom Book" , new Author("Jamie" , 'f', "jamie@crimson.ua.edu"));
             
             
